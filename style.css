@@ -95,10 +95,20 @@ background-color: rgba(0, 0, 0, 0.0);
     border-radius: 20px;
 }
 
+/* esercizio 9 */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
+
+.ex-9-img:hover{
+    filter: saturate(50%) sepia(50%);
+    border-radius: 30px;
+    scale: 1.5;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
