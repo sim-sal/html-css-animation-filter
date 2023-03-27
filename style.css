@@ -84,6 +84,17 @@ background-color: rgba(0, 0, 0, 0.0);
     filter: sepia(50%) invert(); 
 }
 
+/* esercizio 8 */
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: saturate(50%) sepia(50%);
+    border-radius: 20px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
