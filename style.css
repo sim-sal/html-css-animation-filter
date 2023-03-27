@@ -125,12 +125,27 @@ background-color: rgba(0, 0, 0, 0.0);
     }
 }
 
-
-
+/* esercizio 11 */
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: rotation 2s linear ;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(270deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+/* esercizio 12 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
