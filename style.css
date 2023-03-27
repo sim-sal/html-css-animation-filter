@@ -11,15 +11,30 @@
     background-color: red;
 }
 
+/* esercizo 2 */
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+
+.ex-2-square:active{
+    width: 1100px;
+}
+
+/* esercizio 3 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 1s;
+}
+
+.ex-3-square:hover{
+    border-radius: 100%;
 }
 .ex-4-square {
     width: 100px;
