@@ -78,6 +78,12 @@ background-color: rgba(0, 0, 0, 0.0);
     filter: grayscale();
 }
 
+/* esercizio 7 */
+
+.ex-7-img:hover{
+    filter: sepia(50%) invert(); 
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
